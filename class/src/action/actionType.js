@@ -1,0 +1,13 @@
+export const SIGNUP__START = "SIGNUP__START";
+
+export const SIGNUP__SUCCESS = "SIGNUP__SUCCESS";
+
+//THIS SECTION IS FOR LOGIN ACTION TYPES
+
+export const LOGIN__START = "LOGIN__START";
+
+export const LOGIN__SUCCESS = "LOGIN__SUCCESS";
+
+export const AUTHENTICATE_USER = "AUTHENTICATE_USER";
+
+export const LOG_OUT = " LOG_OUT";

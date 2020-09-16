@@ -1,0 +1,146 @@
+.module {
+  width: 100%;
+}
+
+.module__upper {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.performanceCard {
+  width: 40%;
+  height: 50%;
+  /* border: 2px solid black; */
+  padding: 20px 25px;
+  background: #fafafa;
+  box-shadow: 8px 8px 8px #d3d3d3;
+}
+
+.preogress__bar {
+  background: rgb(128, 128, 128);
+}
+
+.progress__content {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 50%;
+}
+
+.fb img {
+  width: 30px;
+  object-fit: contain;
+  height: 30px;
+}
+
+.sosal__media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.linkedin {
+  background: rgb(128, 128, 128);
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* form here the below section or topic is going to start */
+
+.topis {
+  padding: 20px 25px;
+}
+
+.topic {
+  width: 35%;
+  height: 150px;
+
+  margin-bottom: 20px;
+  display: flex;
+  box-shadow: 8px 8px 8px #d3d3d3;
+  background: #fafafa;
+  padding: 10px 15px;
+}
+
+.topic__left {
+  width: 70%;
+}
+
+.left__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topic__right {
+  width: 30%;
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.circule {
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(-143deg, #a759ff, #37a5ff);
+  box-shadow: 9px 8px 37px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circule img {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.deadline {
+  font-size: 18px;
+  letter-spacing: 0.44px;
+  color: #ff7296;
+  font-weight: 400;
+}
+
+.f-r {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+  .module__upper {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-top: 20px;
+  }
+
+  .performanceCard {
+    width: 99%;
+    height: 100%;
+  }
+
+  .topic {
+    width: 100%;
+
+    height: fit-content;
+  }
+}

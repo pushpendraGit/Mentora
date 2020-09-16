@@ -1,0 +1,248 @@
+.mainClass__container {
+  width: 100vw;
+
+  /* border: 2px solid black; */
+  margin-top: 20px;
+  display: flex;
+}
+
+.class__container__left {
+  width: 30%;
+  height: 100vh;
+}
+
+.class__container__right {
+  width: 70%;
+  height: 90vh;
+}
+
+.left__header {
+  box-sizing: border-box;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(240, 255, 240);
+
+  width: 100%;
+}
+
+.left__header__controller {
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 12px;
+  color: #606060;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.23);
+  display: flex;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.left__header__controller img {
+  height: 15px;
+  padding-right: 8px;
+  opacity: 0.8;
+}
+
+.left__header__sec {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.left__header__sec img {
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: cover;
+}
+
+.topic__card__main__container {
+  display: flex;
+  padding: 0 10px;
+  transition: all 0.4s;
+  justify-content: space-between;
+  height: 120px;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.circule {
+  height: 120px;
+  width: 120px;
+  background-image: linear-gradient(-143deg, #a759ff, #37a5ff);
+  box-shadow: 9px 8px 37px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 50%;
+}
+
+.topic__info__container {
+  padding-left: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topic__title {
+  font-size: 15px;
+  color: #4b4b4b;
+  letter-spacing: 0.58px;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.dead__line__title {
+  font-size: 12px;
+  color: #f36;
+  font-weight: 400;
+  margin-top: 8px;
+  letter-spacing: 0.44px;
+}
+
+.deadline {
+  color: #b4b4b4;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 4px;
+  letter-spacing: 0.44px;
+}
+
+.content__list {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow: scroll;
+  align-items: center;
+  padding-top: 15px;
+  max-height: 90vh;
+  box-sizing: border-box;
+}
+
+.c__header {
+  padding: 10px 0 0 25px;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+.header__type {
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  color: #2b2b2b;
+  font-size: 18px;
+}
+
+.progressbar {
+  width: 100%;
+
+  background: #b4b4b4;
+}
+
+.score {
+  font-size: 12px;
+  color: #9d9d9d;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+  padding-bottom: 1px;
+  cursor: default;
+  padding-top: 6px;
+}
+
+.score span {
+  padding-left: 5px;
+  color: #4d4d4d;
+}
+
+.content__item__container {
+  padding: 0 0 0 25px;
+  width: 80%;
+  margin-top: 15px;
+  display: flex;
+  transition: all 0.3s;
+  cursor: pointer;
+  flex-direction: column;
+  /* border: 2px solid black; */
+}
+
+.content__name__container {
+  display: flex;
+  align-items: center;
+}
+
+.content__name__container img {
+  height: 40px;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+
+.content__name {
+  align-self: center;
+
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.vedio__content__header {
+  display: flex;
+  flex-direction: row;
+  height: 51px;
+  box-shadow: 3px 0 4px 0 rgba(0, 0, 0, 0.5);
+  background: #2a2747;
+  color: #fff;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
+
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toggle__btn {
+  opacity: 0.9;
+  padding-right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: white;
+}
+
+.toggle__btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.vi {
+  width: 100%;
+  height: 100%;
+}
+
+.vi video {
+  width: 100%;
+  height: 100%;
+}
+
+.ite__rapper {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .class__container__right {
+    width: 100%;
+    height: 100%;
+  }
+
+  .class__container__left {
+    width: 60%;
+  }
+}
